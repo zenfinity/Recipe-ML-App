@@ -1,13 +1,16 @@
-# Recipe-ML-App
+# UofM Final Project: Recipe-ML-App
+
+> **Note**
+> As of Nov 2022, Heroku discontinued free tier of app hosting. App is unavailable until further notice. Potential to redeploy on Render. --IMM 2023/03/16
 
 # Description
-> Using machine learning, we created an interactive web app that gives the user recommended recipes based on a region or ingredient selected 
+Using machine learning, we created an interactive web app that gives the user recommended recipes based on a region and/or ingredient(s) selected 
 
 # Data Sources
 * [**Kaggle**](https://www.kaggle.com/c/whats-cooking/data)
 *	[**Spoonacular API**](https://spoonacular.com/food-api)
 
-# Analysis
+# Method
 * Clean, modify and filter the data using Pandas and Jupyter notebook 
 * Fit models from scikit-learn
 * Use Heroku and PostgreSQL as the database
